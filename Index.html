@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বিনোদন পোর্টাল</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #333; color: white; padding: 10px 0; text-align: center; }
+        nav { background-color: #444; color: white; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .marquee-container { background-color: #ff9900; color: white; padding: 10px; overflow: hidden; white-space: nowrap; }
+        .marquee-container marquee { font-weight: bold; }
+        .search-container { text-align: center; padding: 20px; }
+        .search-container input[type=text] { width: 300px; padding: 10px; }
+        .search-container button { padding: 10px 20px; background-color: #333; color: white; border: none; cursor: pointer; }
+        .content-section { padding: 20px; text-align: center; }
+        .content-grid { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .card { background-color: white; border: 1px solid #ddd; border-radius: 8px; width: 200px; margin: 10px; padding: 15px; text-align: center; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; position: fixed; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>স্বাগতম আমাদের বিনোদন পোর্টালে</h1>
+</header>
+
+<div class="marquee-container">
+    <marquee behavior="scroll" direction="left">এখানে আপনার ওয়েবসাইটের বিশেষ ঘোষণা বা হাইলাইট করা লেখাগুলো প্রদর্শিত হবে।</marquee>
+</div>
+
+<nav>
+    <a href="#music">গান</a>
+    <a href="#video">ভিডিও</a>
+    <a href="#photo">ছবি</a>
+    <a href="#game">গেম</a>
+</nav>
+
+<div class="search-container">
+    <input type="text" placeholder="কী খুঁজছেন?">
+    <button>সার্চ</button>
+</div>
+
+<div class="content-section" id="music">
+    <h2>জনপ্রিয় গানসমূহ</h2>
+    <div class="content-grid">
+        <div class="card">গানের শিরোনাম ১</div>
+        <div class="card">গানের শিরোনাম ২</div>
+        <div class="card">গানের শিরোনাম ৩</div>
+    </div>
+</div>
+
+<div class="content-section" id="video">
+    <h2>ভিডিও</h2>
+    <div class="content-grid">
+        <div class="card">ভিডিও ১</div>
+        <div class="card">ভিডিও ২</div>
+        <div class="card">ভিডিও ৩</div>
+    </div>
+</div>
+
+<div class="content-section" id="photo">
+    <h2>ছবি</h2>
+    <div class="content-grid">
+        <div class="card">ছবির গ্যালারি ১</div>
+        <div class="card">ছবির গ্যালারি ২</div>
+        <div class="card">ছবির গ্যালারি ৩</div>
+    </div>
+</div>
+
+<div class="content-section" id="game">
+    <h2>গেম</h2>
+    <div class="content-grid">
+        <div class="card">গেম ১</div>
+        <div class="card">গেম ২</div>
+        <div class="card">গেম ৩</div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; ২০২৬ সর্বস্বত্ব সংরক্ষিত</p>
+</footer>
+
+</body>
+</html>
+
